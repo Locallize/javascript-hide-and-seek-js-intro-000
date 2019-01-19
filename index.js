@@ -13,9 +13,9 @@ const increaseRankBy = (n)=>{
   let num = n;
   for (let i = 0; i < active.length; i++) {
   active[i].innerHTML = parseInt(active[i].innerHTML) + num;
-  // return active
+  return active
   }
-  return active;
+  // return active;
 };
 
 
